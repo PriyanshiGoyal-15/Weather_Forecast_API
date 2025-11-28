@@ -1,0 +1,25 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background: #090816;
+  background: -webkit-linear-gradient(to right, #263e49, #203A43, #0F2027);
+  background: linear-gradient(to right, #1b323c, #203A43, #0F2027);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.card {
+  width: 70vh;
+  height: 75vh;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 4px 4px rgba(5, 194, 246, 0.3);
+  border-radius: 25px;
+  justify-content: center;
+  margin: auto;
+}
